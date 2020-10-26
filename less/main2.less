@@ -1,0 +1,844 @@
+@font-face {
+    font-family: 'Bell MT';
+    src: url('fonts/BellMT.woff2') format('woff2'),
+        url('fonts/BellMT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bell MT';
+    src: url('fonts/BellMTBold.woff2') format('woff2'),
+        url('fonts/BellMTBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bell MT';
+    src: url('fonts/BellMTItalic.woff2') format('woff2'),
+        url('fonts/BellMTItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Corbel';
+    src: url('fonts/CorbelLight-Italic.woff2') format('woff2'),
+        url('fonts/CorbelLight-Italic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Corbel';
+    src: url('fonts/CorbelLight.woff2') format('woff2'),
+        url('fonts/CorbelLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Corbel';
+    src: url('fonts/Corbel-BoldItalic.woff2') format('woff2'),
+        url('fonts/Corbel-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Corbel';
+    src: url('fonts/Corbel-Bold.woff2') format('woff2'),
+        url('fonts/Corbel-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Corbel';
+    src: url('fonts/Corbel.woff2') format('woff2'),
+        url('fonts/Corbel.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Corbel';
+    src: url('fonts/Corbel-Italic.woff2') format('woff2'),
+        url('fonts/Corbel-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+body.page-template-inicio, body.page-template-acerca, body.page-template-talla{
+.row {
+    
+    display: inherit;
+}
+}
+/* Ajustes generales de la plantilla */
+ .woodmart-logo img {  
+ 
+        transform: scale(1) translateY(-2px);
+}
+.whb-row.whb-general-header.whb-not-sticky-row.whb-without-bg.whb-without-border.whb-color-dark.whb-flex-equal-sides {
+    padding: 30px;
+}
+.whb-general-header .woodmart-logo img {
+    max-height: max-content!important;
+    max-width: max-content!important;
+            margin-bottom: -23px;
+}
+@import "vars";
+.main-page-wrapper {
+  
+    padding-top: 0px;
+}
+
+/*Ajuste de FullWidth*/
+
+.page-template {
+    .container {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+.whb-general-header-inner {
+       height: 100px!important;
+}
+.whb-color-dark .navigation-style-underline .item-level-0>a {
+     font-family: 'Bell MT'!important;
+     color: @gris;
+    font-size: 16px;
+    font-weight: bold;
+}
+#menu-item-380:nth-child(1) {
+    a.woodmart-nav-link {
+    color: @rosa!important;
+    font-family: 'Bell MT'!important;
+    font-weight: normal;
+    font-style: italic;
+    text-decoration: underline;
+}
+}
+.nav-shop {
+    visibility: hidden;
+}
+
+/*Esquema por defecto para las secciones*/
+.whb-row.whb-general-header.whb-not-sticky-row.whb-without-bg.whb-without-border.whb-color-dark.whb-flex-equal-sides {
+    padding: 0px!important;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    .col {
+        width: 50%;
+    }
+    .col2 {
+            width: 33.33%;
+    }
+    .col3 {
+            width: 25%;
+    }
+}
+
+/*Ajuste general*/
+ol {
+    list-style: decimal;
+}
+
+.template-section {
+   
+        padding: 50px 0;
+    
+
+    .contenedor {
+        max-width: 1100px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .col {
+        min-height: 500px;
+        padding: 60px;
+    }
+    .col2 {
+        min-height: 500px;
+        padding: 60px;
+    }
+    .col3 {
+        min-height: 500px;
+        padding: 60px;
+    }
+    
+    /*h1 {
+        color: @rosa;
+         font-family: 'Gotham Bold';
+        text-align: center;
+            font-size: 68px;
+        text-transform: uppercase;
+       
+        b {
+             font-family: 'Gotham Light';
+            color: black;
+            display: block;
+             font-size: 50px;
+           
+        }
+        
+        
+    }*/
+
+    h2 {
+         font-family: 'Bell MT';
+        color: @rosa;
+            font-weight: normal;
+            font-style: italic;
+      
+        
+       
+        font-size: 28px;
+        
+        
+        line-height: 1.8em;
+        text-align: center;
+        span{
+text-transform: uppercase;
+            
+            font-style: normal;
+            color: @gris;
+            font-size: 58px;
+            display: block;
+            &.rosa{
+                color: @rosa;
+            }
+        }
+
+    }
+    h3 {
+         font-size: 38px;
+        font-family: 'Bell MT';
+         color: @rosa;
+        text-transform: uppercase;
+        &.dorado{
+            color: @dorado;
+            font-weight: normal;
+            font-style: italic;
+        }
+    }
+    p,
+    ul,a {
+        color: @gris2;
+        font-size: 18px;
+        font-family: 'Corbel';
+        &.blanco{
+            color: white;
+        }
+        span{
+            display: block;
+        }
+        
+    }
+
+
+    ul {
+        li {
+            color: @gris2;
+           font-family: 'Corbel';
+            position: relative;
+            margin-left: 15px;
+            margin-bottom: 10px;
+           
+            &::before {
+                    top: -4px;
+                content: "●";
+                color: @rosa;
+                font-size: 20px;
+                padding-right: 20px;
+                position: absolute;
+                left: -15px;
+                margin-left: -9px;
+            }
+        }
+      
+
+        
+    }
+
+
+
+  
+
+    .btn {
+        
+        transition: all 0.3s ease-in-out;
+        font-family: 'Corbel';
+           text-transform: uppercase;
+            font-size: 1.8em;
+ //        -webkit-border-radius: 10px;
+//  -moz-border-radius: 10px;
+//  border-radius: 20px;
+            background: @rosa;
+            color: white;
+            &:hover {
+                 transform: translateY(-5px);
+                background: white;
+                color: @rosa;
+               
+            }
+        
+    }
+    .center {
+        text-align: center;
+    }
+}
+.fondoinicio{
+    background: url(../img/fondo.png) right no-repeat;
+}
+#slide{
+    padding-top: 120px;
+}
+.social-form-circle .woodmart-social-icon {
+  
+    color: white!important;
+}
+#descuento{
+    p.descuento {
+    color: white;
+    margin-top: 8px;
+}
+    
+}
+#vestidos{
+        padding-top: inherit;
+
+    .col{
+            padding: inherit;
+        a{
+                   font-weight: bold;
+    border-bottom: 1px solid #daa2a3;
+    position: relative;
+            bottom: 171px;
+            &.tienda2{
+                    
+    left: 41px;
+            }
+            &.tienda1{
+                left: 28px;
+            }
+        }
+    }
+}
+#promociones{
+     p,a,img,h3{
+        opacity: inherit!important;
+            transform: initial!important;
+    }
+}
+#testimonios{
+     p,a,img,h3{
+        opacity: inherit!important;
+          
+    }
+     background: url(../img/testimonio.jpg) center no-repeat;
+    background-size: cover;
+}
+#contacto{
+     background: url(../img/contacto.jpg) right no-repeat;
+    
+    .datos{
+        i{
+                font-family: 'Bell MT';
+    color: #c7b273;
+    font-style: italic;
+    font-size: 25px;
+    position: relative;
+    left: 10px;
+}
+        span.espe{
+                margin-top: -13px;
+        }
+         span{
+            position: relative;
+    left: 53px;
+    }
+        }
+    
+   img.so {
+    margin-right: 10px;
+}
+      
+    p.negrita{
+         font-family: 'Bell MT';
+        color: @rosa;
+            font-weight: normal;
+            font-style: italic;
+   
+    }
+    
+   
+    .col {
+    min-height: inherit;
+    }
+    .gridespe{
+        margin-bottom: -100px;
+        h2{
+                line-height: 1em;
+                text-align: left;
+        }
+    }
+    img{
+        &.logo{
+                position: relative;
+    bottom: 32px;
+        }
+    }
+    
+      .caldera-grid .form-control {
+    
+    background-color: #eeeeee;
+    border: 1px solid #7d7d7d;
+        color: #7d7d7d;
+      font-size: 18px;
+     font-family: 'Corbel';
+          font-style: italic;
+}
+     .caldera-grid .form-control::placeholder, .caldera-grid .form-control, label  { 
+         color: #7d7d7d;
+        font-size: 18px;
+  font-family: 'Corbel';
+         font-style: italic;
+       
+    }
+    
+    .btn {
+        
+        transition: all 0.3s ease-in-out;
+        font-family: 'Corbel';
+           text-transform: uppercase;
+            font-size: 1.8em;
+ //        -webkit-border-radius: 10px;
+//  -moz-border-radius: 10px;
+//  border-radius: 20px;
+            background: @rosa;
+            color: white;
+            &:hover {
+                 transform: translateY(-5px);
+                background: white;
+                color: @rosa;
+               
+            }
+        
+    }
+    #fld_9076128_1-wrap {
+    position: relative;
+    
+    float: right;
+}
+}
+#esbrillante{
+    background-color: @dorado;
+        padding: 30px 0px 10px 0px;
+    a,p{
+        color: white;
+    }
+    p.acerca{
+        a{
+             font-family: 'Bell MT';
+            border-right: 1px solid white;
+    margin-right: 10px;
+                padding-right: 10px;
+            &.espe{
+                border-right: none;
+                margin-right: auto;
+            }
+}
+        }
+    p.sitio{
+            font-weight: bold;
+        a{
+            font-weight: bold;
+        }
+        
+    }
+}
+#acerca{
+    background: url(../img/acerca.jpg) top left no-repeat;
+           height: 1800px;
+    .contenedor{
+            position: relative;
+    top: 210px;
+    }
+    .acercafondo{
+         background: url(../img/acerca2.png) right no-repeat;
+            height: 800px;
+    position: relative;
+           top: -110px;
+   
+    }
+    .divfondo1{
+margin-bottom: -265px;
+        h2{
+                color: #eeeeee;
+           font-size: 120px;
+    font-style: normal;
+    font-weight: bold;
+            position: relative;
+    left: 100px;
+            
+        }
+    }
+    .divfondo2{
+            position: relative;
+           top: -221px;
+        h2 span{
+            font-weight: normal;
+            position: relative;
+        left: -88px;
+    top: -10px;
+            
+        }
+    }
+    p.text{
+            position: relative;
+    top: 70px;
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+    text-align: justify;
+    }
+    .grid{
+            position: relative;
+            top: 185px;
+        .col{
+                min-height: inherit;
+        }
+        p{
+                text-align: justify;
+    text-align-last: center;
+    max-width: 300px;
+    display: block;
+    margin: auto;
+        }
+    }
+}
+#medidas{
+    padding-bottom: 150px;
+    .col3{
+        padding: 20px;
+        min-height: inherit;
+    }
+    img{
+        display: block;
+        margin: auto;
+    }
+    h3{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 22px;
+    }
+    background: url(../img/talla.jpg) top left no-repeat;
+         //  height: 1800px;
+    .contenedor{
+            position: relative;
+    top: 210px;
+    }
+    .acercafondo{
+         background: url(../img/acerca2.png) right no-repeat;
+            height: 800px;
+    position: relative;
+          
+             margin-top: -157px;
+    margin-bottom: -546px;
+   
+    }
+    .divfondo1{
+margin-bottom: -265px;
+        h2{
+                color: #eeeeee;
+           font-size: 120px;
+    font-style: normal;
+    font-weight: bold;
+            position: relative;
+    left: 100px;
+            
+        }
+    }
+    .divfondo2{
+            position: relative;
+           top: -221px;
+        h2 span{
+            font-weight: normal;
+            position: relative;
+        left: -88px;
+    top: -10px;
+            
+        }
+    }
+    p.text{
+            position: relative;
+    top: 70px;
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+    text-align: justify;
+    }
+    .grid{
+            position: relative;
+                top: 50px;
+        .col{
+                min-height: inherit;
+                display: block;
+    margin: auto;
+        }
+        p{
+                text-align: justify;
+    text-align-last: center;
+   
+    display: block;
+    margin: auto;
+            &.espe{
+                text-align: center;
+            }
+        }
+    }
+    
+    
+    
+    .faq{
+         td{
+            border-bottom: none;
+        font-family: 'Corbel';
+         font-size: 20px;
+             color: #626262;
+        
+    }
+   /* tr:nth-child(odd) {
+        background-color:#fafafa;
+    
+}
+tr:nth-child(even) {
+    background-color:white;
+}*/
+        tr{
+            background-color: #fafafa;
+        }
+    th{
+      font-family: 'Bell MT';
+    font-size: 25px;
+        color: white;
+        font-style: italic;
+        background-color: #daa2a3;
+    }
+       
+// General
+
+input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+// Layout
+.row {
+  display:flex;
+  .col {
+    flex:1;
+    &:last-child {
+      margin-left: 1em;
+    }
+  }
+}
+/* Accordion styles */
+.tabs {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 4px -2px rgba(0,0,0,0.5);
+}
+.tab {
+  width: 100%;
+  color: white;
+  overflow: hidden;
+  &-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    font-family: 'Bell MT';
+    background: @dorado;
+    font-weight: bold;
+    cursor: pointer;
+          color: white;
+    font-size: 20px;
+    /* Icon */
+    &:hover {
+      background: @rosa;
+    }
+    &::after {
+      content: "\276F";
+      width: 1em;
+      height: 1em;
+      text-align: center;
+      transition: all .35s;
+    }
+  }
+  &-content {
+    max-height: 0;
+    padding: 0 1em;
+    color: $midnight;
+    background: white;
+    transition: all .35s;
+  }
+  &-close {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    font-size: 0.75em;
+    background: @dorado;
+    cursor: pointer;
+    &:hover {
+      background: @rosa;
+    }
+  }
+}
+
+// :checked
+input:checked {
+  + .tab-label {
+      font-family: 'Bell MT';
+    background: @dorado;
+    &::after {
+      transform: rotate(90deg);
+    }
+  }
+  ~ .tab-content {
+    max-height: 100vh;
+    padding: 1em;
+  }
+}
+
+    }
+}
+    
+#valores{
+    p,a,img,h3{
+        opacity: inherit!important;
+            transform: initial!important;
+    }
+    img{
+        display: block;
+    margin: auto;
+        &.sol{
+            
+    margin-top: -110px;
+    margin-bottom: 110px;
+    }
+    }
+}
+
+#faq{
+    @midnight: #2c3e50;
+@clouds: #ecf0f1;
+// General
+
+
+input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+// Layout
+.row {
+  display:flex;
+  .col {
+    flex:1;
+    &:last-child {
+      margin-left: 1em;
+    }
+  }
+}
+/* Accordion styles */
+.tabs {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 4px -2px rgba(0,0,0,0.5);
+}
+.tab {
+  width: 100%;
+  color: white;
+  overflow: hidden;
+  &-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+     font-family: 'Bell MT';
+
+      font-size: 25px;
+    background: @rosa;
+        color: white;
+    font-weight: bold;
+    cursor: pointer;
+    /* Icon */
+    &:hover {
+      background: @dorado;
+        
+    }
+    &::after {
+      content: "\276F";
+      width: 1em;
+      height: 1em;
+      text-align: center;
+      transition: all .35s;
+    }
+  }
+  &-content {
+    max-height: 0;
+    padding: 0 1em;
+    color: $midnight;
+    background: white;
+    transition: all .35s;
+  }
+  &-close {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    font-size: 0.75em;
+    background: @rosa;
+    color: white;
+      font-family: 'Corbel';
+          font-size: 13px;
+    cursor: pointer;
+    &:hover {
+      background: @dorado;
+    }
+  }
+}
+
+// :checked
+input:checked {
+  + .tab-label {
+    background: @dorado;
+      
+    &::after {
+      transform: rotate(90deg);
+    }
+  }
+  ~ .tab-content {
+    max-height: 100vh;
+    padding: 1em;
+      color: @gris2;
+      font-family: 'Corbel';
+          font-size: 18px;
+  }
+}
+
+}
+@import "responsive";
