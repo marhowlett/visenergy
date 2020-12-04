@@ -13,11 +13,11 @@
    <div class="grid">
    <div class="lap">
     <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/acerca.jpg" alt="Logo"></div>
-     <div class="col"><h2>Acerca de <span>NOSOTROS</span></h2><hr><p>Somos <b>VisEnergy</b> una empresa de consultoría especializada en el uso adecuado de las energías renovables.  Ofrecemos el servicio más completo y profesional de México, ya que nuestro interés es que obtengas la mejor solución financiera y técnica segun las necesidades de energía de tu empresa o negocio.</p> <a href="#" class="btn">SABER MÁS</a></div>
+     <div class="col"><h2>Acerca de <span>NOSOTROS</span></h2><hr><p>Somos <b>VisEnergy</b> una empresa de consultoría especializada en el uso adecuado de las energías renovables.  Ofrecemos el servicio más completo y profesional de México, ya que nuestro interés es que obtengas la mejor solución financiera y técnica segun las necesidades de energía de tu empresa o negocio.</p> <a href="#consultoria" class="btn">SABER MÁS</a></div>
     </div>
     <div class="movil">
         
-     <div class="col"><h2>Acerca de <span>NOSOTROS</span></h2><hr><p>Somos <b>VisEnergy</b> una empresa de consultoría especializada en el uso adecuado de las energías renovables.  Ofrecemos el servicio más completo y profesional de México, ya que nuestro interés es que obtengas la mejor solución financiera y técnica segun las necesidades de energía de tu empresa o negocio.</p> <a href="#" class="btn">SABER MÁS</a></div>
+     <div class="col"><h2>Acerca de <span>NOSOTROS</span></h2><hr><p>Somos <b>VisEnergy</b> una empresa de consultoría especializada en el uso adecuado de las energías renovables.  Ofrecemos el servicio más completo y profesional de México, ya que nuestro interés es que obtengas la mejor solución financiera y técnica segun las necesidades de energía de tu empresa o negocio.</p> <a href="#consultoria" class="btn">SABER MÁS</a></div>
      <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/acerca.jpg" alt="Logo"></div>
     </div>
     </div>
@@ -36,13 +36,13 @@
      <div class="col">
              <div class="ban">
              <h2>Consultoría en <span>ENERGÍAS RENOVABLES</span></h2><hr>
-         <p class="espe">Nuestro servicio consiste en <b>asesorarte</b> y acompañarte para que obtengas la mejor solución financiera y técnica para tus <b>necesidades de energía</b></p>. 
+         <p class="espe">Nuestro servicio consiste en <b>asesorarte</b> y acompañarte para que obtengas la mejor solución financiera y técnica para tus <b>necesidades de energía.</b></p>
  
 <p>Antes de recomendarte que compres un equipo, realizaremos una evaluación de  todos los costos, necesidades de consumo y los aspectos que pueden afectar el desempeño a fin de ofrecerte la mejor solución de energía renovable según tu caso. </p>
  	  
 <p>Te ofrecemos una visión experta e imparcial para garantizar tu satisfacción. Y es importante que sepas que en muchos de los casos el costo de nuestros servicios más el costo del sistema final va a ser más barato o igual de lo que hubiera sido de otra forma, ya que el sistema que te recomendemos será el que realmente necesitas. </p>
  
-<p>Dependiendo de la complejidad del proyecto, lograr nuestro objetivo puede durar de unos días o algunas semanas, pero al final del proceso podrás comenzar a recuperar tu inversión, logrando que tu empresa o negocio funcione con el apoyo de energías renovables y ayudando al medio ambiente.</p><div class="center"><a href="#" class="btn">ME INTERESA</a></div>
+<p>Dependiendo de la complejidad del proyecto, lograr nuestro objetivo puede durar de unos días o algunas semanas, pero al final del proceso podrás comenzar a recuperar tu inversión, logrando que tu empresa o negocio funcione con el apoyo de energías renovables y ayudando al medio ambiente.</p><div class="center"><a href="#contacto" class="btn">ME INTERESA</a></div>
      </div>
     </div>
    <div class="col especial"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/consultoria.jpg" alt="Logo"></div>
@@ -177,21 +177,21 @@
         </div>
         
        <div class="datos">
-       <p class="bl2"> <img class="so" src="<?php echo get_stylesheet_directory_uri(); ?>/img/clock.png" alt="Logo"> De Lunes a Viernes / 9:oo a 18:00hrs</p>
+       <p class="bl2"> <img class="so" src="<?php echo get_stylesheet_directory_uri(); ?>/img/clock.png" alt="Logo"> De Lunes a Viernes / 9:oo a 18:00hrs <span>Sábados / 10:00 a 14:00 hrs</span></p>
         
         </div>
         
         
         
         <div class="datos">
-       <p class="bl2"> <img class="so" src="<?php echo get_stylesheet_directory_uri(); ?>/img/mail.png" alt="Logo">  <a href="mailto:fersosam@gmail.com">fersosam@gmail.com</a></p>
+       <p class="bl2"> <img class="so" src="<?php echo get_stylesheet_directory_uri(); ?>/img/mail.png" alt="Logo">  <a href="mailto:contacto.visenergy@gmail.com">contacto.visenergy@gmail.com</a></p>
         
         </div>
-        
+        <!--
      
        <p class="negrita">SÍGUENOS EN:</p>
        <p><a href="#"><img class="so" src="<?php echo get_stylesheet_directory_uri(); ?>/img/fb.png" alt="Logo">  </a><a href="#"><img class="so" src="<?php echo get_stylesheet_directory_uri(); ?>/img/ig.png" alt="Logo">  </a></p>
-       
+       -->
      </div>
            </div>
 </div>

@@ -331,6 +331,7 @@ ol {
 }
 #faq input:checked + .tab-label {
   background: #90775e;
+  color: white;
 }
 #faq input:checked + .tab-label::after {
   transform: rotate(90deg);
@@ -338,7 +339,7 @@ ol {
 #faq input:checked ~ .tab-content {
   max-height: 100vh;
   padding: 1em;
-  color: #90775e;
+  color: black;
   font-family: 'Aller';
   font-size: 18px;
 }
@@ -353,7 +354,7 @@ ol {
 }
 #contacto .datos span {
   position: relative;
-  left: 53px;
+  left: 58px;
 }
 #contacto img.so {
   margin-right: 10px;
@@ -487,6 +488,10 @@ ol {
     position: relative;
     float: none;
     top: 47px;
+  }
+  #contacto p.bl2,
+  #contacto a {
+    font-size: 14px;
   }
   #contacto h2 {
     text-align: center;

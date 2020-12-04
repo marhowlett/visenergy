@@ -72,6 +72,10 @@
     float: none;
     top: 47px;
   }
+  #contacto p.bl2,
+  #contacto a {
+    font-size: 14px;
+  }
   #contacto h2 {
     text-align: center;
   }
